@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: tdemo1
+  description: Tanzu Demo1 System
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  owner: default-team
+  domain: tdemo1-domain
