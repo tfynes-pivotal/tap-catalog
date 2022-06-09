@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: tdemo1-domain
+  description: Tanzu Demos Domain
+  links:
+    - url: http://example.com/domain/cloud-apps/
+      title: Domain Readme
+    - url: http://example.com/domains/cloud-apps/dashboard
+      title: Cloud Apps Dashboard
+      icon: dashboard
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  owner: default-team
